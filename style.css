@@ -10,7 +10,7 @@ body {
 
 .item  {
 	flex: 1 100%;
-	padding: 20px;
+	padding: 30px 0px;
 }
 
 .inner {
@@ -34,15 +34,15 @@ body {
 	float: left;
 }
 
-.copyright p{
+.copyright p {
 	float: left;
-	width: 190px;
-	margin: 0px;
-	line-height: 67px;
+	width: 285px;
+	line-height: 25px;
+    margin-top: 10px;
 }
 
 .social_wrapper {
-    margin-left: 190px;
+    margin-left: 285px;
     text-align: right;
 }
 
@@ -69,4 +69,17 @@ body {
 
 .item p {
 	text-align: left;
+}
+
+.date ul li {
+	padding-right: 25px;
+}
+
+.date ul li img {
+	float: left;
+	padding-right: 5px;
+}
+
+.date ul li {
+	line-height: 21px;
 }
