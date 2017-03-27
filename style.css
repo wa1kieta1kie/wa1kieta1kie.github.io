@@ -36,13 +36,13 @@ body {
 
 .copyright p {
 	float: left;
-	width: 285px;
+	width: 310px;
 	line-height: 25px;
     margin-top: 10px;
 }
 
 .social_wrapper {
-    margin-left: 285px;
+    margin-left: 310px;
     text-align: right;
 }
 
