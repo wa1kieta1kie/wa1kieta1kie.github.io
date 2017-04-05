@@ -1,76 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Swiss Template</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
-	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Swiss</title>
+  <!--link rel="stylesheet" href="reset.css"-->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxigen:700,400" rel="stylesheet">
+  <script src="https://use.fontawesome.com/867b5d3be0.js"></script>
+ 
 </head>
 <body>
-	<div class="wrapper">
-		<div class="item video">
-			<div class="video inner">
-				<div class="date">
-					<ul>
-						<li><img src="./images/icons/clock.png">27 March</li>
-						<li><img src="./images/icons/pen.png">Video</li>
-						<li><img src="./images/icons/chat.png"><a href="#">5 Comments</a></li>
-					</ul>
-				</div>
-				<div class="video_wrapper">
-					<iframe src="https://player.vimeo.com/video/183979290" width="854" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				</div>	
-			</div>
-		</div>
-		<div class="item picture">
-			<div class="picture inner">
-				<div class="date">
-					<ul>
-						<li><img src="./images/icons/clock.png">27 March</li>
-						<li><img src="./images/icons/pen.png">Video</li>
-						<li><img src="./images/icons/chat.png"><a href="#">5 Comments</a></li>
-					</ul>
-				</div>
-				<div class="picture_wrapper">
-					<img src="./images/main.jpg" width="854">
-				</div>
-			</div>
-		</div>
-		<div class="item player">
-			<div class="player inner">
-				<div class="date">
-					<ul>
-						<li><img src="./images/icons/clock.png">27 March</li>
-						<li><img src="./images/icons/pen.png">Video</li>
-						<li><img src="./images/icons/chat.png"><a href="#">5 Comments</a></li>
-					</ul>
-				</div>
-				<div class="player_wrapper">
-					<audio controls>
-						<source src="./audio/Don_t_Turn_Back.mp3" type="audio/mpeg">
-						Your browser does not support the audio tag.
-					</audio>
-				</div>
-			</div>
-		</div>
-		<div class="item footer">
-			<div class="footer inner">
-				<div class="copyright">
-					<p>Swiss Theme by Niall MacFariane, 2014
-					<br>
-					Web Layout by wa1kieta1kie & Neakit, 2017</p>
-				</div>
-				<div class="social_wrapper">
-					<ul>
-						<li><img src="./images/social/facebook.png"></li>
-						<li><img src="./images/social/twitter.png"></li>
-						<li><img src="./images/social/vimeo.png"></li>
-						<li><img src="./images/social/dribble.png"></li>
-						<li><img src="./images/social/flickr.png"></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+   <div class="wrapper">
+      <div class="item header">      
+      <div class="header inner">
+            <ul id="header-list">
+               <li><a href="">Home</a></li>
+               <li><a href="">Ask</a></li>
+               <li><a href="">Archive</a></li>
+               <li><a href="">Contact</a></li>
+            </ul>           
+            <div class="search">   
+               <i class="fa fa-search" aria-hidden="true"></i>
+               <input type="text" placeholder="search"> 
+            </div>        
+            <h1>Swiss</h1>
+            <div class="header-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem blanditiis vero veritatis quam voluptates aut tempore atque repudiandae repellat</p>
+            </div>         
+         </div>
+      </div>   
+      <div class="slider">
+           <ul id="slides">
+                <li class="slide showing"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+           </ul>
+           <div class="buttons">
+               <button class="controls" id="previous">&lt;</button>
+               <button class="controls" id="next">&gt;</button>
+           </div>
+      </div>
+      <div class="comments item">
+         <div class="inner">
+         <h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet.</h2>
+         <div class="date">
+            <ul>
+               <li><img src="./img/icons/clock.png">27 March</li>
+               <li><img src="./img/icons/pen.png">Video</li>
+               <li><img src="./img/icons/chat.png"><a href="#">5 Comments</a></li>
+            </ul>
+         </div>                    
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis beatae ad aut distinctio consectetur. Exercitationem maxime eos quas culpa, sed sint eligendi deleniti atque in expedita praesentium, blanditiis nobis ducimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere amet est culpa porro, error aliquam. Illo culpa impedit repellat, laudantium ut veniam unde, earum consequuntur iusto nulla accusantium perspiciatis? Earum!</p> 
+      <button id="comments_button">READ MORE</button>  
+      </div>
+      </div>
+
+      <div class="quotes item">
+         <div class="inner">
+            <div class="date">
+               <ul>
+                  <li><img src="./img/icons/clock.png">27 March</li>
+                  <li><img src="./img/icons/pen.png">Video</li>
+                  <li><img src="./img/icons/chat.png"><a href="#">5 Comments</a></li>
+               </ul>
+            </div>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae saepe, pariatur! Natus necessitatibus facilis dolorem commodi quidem cumque, architecto corporis praesentium modi."</p> 
+            <p>lorem Ipsum </p>
+         </div>
+      </div>  
+      <div class="item video">
+         <div class="video inner">
+            <div class="date">
+               <ul>
+                  <li><img src="./img/icons/clock.png">27 March</li>
+                  <li><img src="./img/icons/pen.png">Video</li>
+                  <li><img src="./img/icons/chat.png"><a href="#">5 Comments</a></li>
+               </ul>
+            </div>
+            <div class="video_wrapper">
+               <iframe src="https://player.vimeo.com/video/183979290" width="854" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>   
+         </div>
+      </div>
+      <div class="item picture">
+         <div class="picture inner">
+            <div class="date">
+               <ul>
+                  <li><img src="./img/icons/clock.png">27 March</li>
+                  <li><img src="./img/icons/pen.png">Video</li>
+                  <li><img src="./img/icons/chat.png"><a href="#">5 Comments</a></li>
+               </ul>
+            </div>
+            <div class="picture_wrapper">
+               <img src="./img/main.jpg" width="854">
+            </div>
+         </div>
+      </div>
+      <div class="item player">
+         <div class="player inner">
+            <div class="date">
+               <ul>
+                  <li><img src="./img/icons/clock.png">27 March</li>
+                  <li><img src="./img/icons/pen.png">Video</li>
+                  <li><img src="./img/icons/chat.png"><a href="#">5 Comments</a></li>
+               </ul>
+            </div>
+            <div class="player_wrapper">
+               <audio controls>
+                  <source src="./audio/Don_t_Turn_Back.mp3" type="audio/mpeg">
+                  Your browser does not support the audio tag.
+               </audio>
+            </div>
+         </div>
+      </div>
+      <div class="item footer">
+         <div class="footer inner">
+            <div class="copyright">
+               <p>Swiss Theme by Niall MacFariane, 2014
+               <br>
+               Web Layout by wa1kieta1kie & Neakit, 2017</p>
+            </div>
+            <div class="social_wrapper">
+               <ul>
+                  <li><img src="./img/social/facebook.png"></li>
+                  <li><img src="./img/social/twitter.png"></li>
+                  <li><img src="./img/social/vimeo.png"></li>
+                  <li><img src="./img/social/dribble.png"></li>
+                  <li><img src="./img/social/flickr.png"></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="js.js"></script>
 </body>
 </html>
