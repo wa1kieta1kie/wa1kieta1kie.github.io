@@ -17,6 +17,11 @@ a{
  text-decoration: none;
 }
 /*------------------------------------------------*/
+.header .inner h1 {
+    font-size: 4em;
+    margin: 0;
+	padding: 100px 0px 0px 0px;
+}
 
 .header ul {
   padding-left: 0;
