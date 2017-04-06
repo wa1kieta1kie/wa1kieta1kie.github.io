@@ -376,10 +376,16 @@ these make the slideshow work
   line-height: 21px;
 }
 
-.player .date, .video .date, .quote .date, .date a {
+.player .date, .video .date, .quote .date {
     color: white;
+}
+
+.date a {
+	color: white;
+	border-bottom: 1px dashed white;
 }
 
 .quote .date a, .picture .date a, .comments .date a {
 	color: black !important;
+	border-bottom: 1px dashed #e44a4a;
 }
