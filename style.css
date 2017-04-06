@@ -30,7 +30,7 @@ a{
 .header ul li {
   display: block;
   float: left;
-  padding-right: 15px;
+  padding-right: 30px;
   font-size: 1em;
 } 
 
@@ -363,17 +363,14 @@ these make the slideshow work
   text-align: left;
 }
 
-.date ul li {
-  padding-right: 25px;
-}
-
 .date ul li img {
   float: left;
   padding-right: 10px;
 }
 
 .date ul li {
-  line-height: 21px;
+	line-height: 21px;
+    padding-right: 40px;
 }
 
 .player .date, .video .date, .quote .date {
