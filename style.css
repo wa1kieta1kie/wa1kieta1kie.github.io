@@ -33,6 +33,11 @@ a{
   padding-right: 15px;
   font-size: 1em;
 } 
+
+#header-list {
+	line-height: 38px;
+}
+
  /*------------------------------------------------------стили для javascript*/
 
 .menu_item_style {
@@ -41,7 +46,7 @@ a{
 
 .menu_item_style a {
   color: inherit;
-  border-bottom: 2px solid #e44a4a;
+  border-bottom: 3px solid #e44a4a;
   transition: 0.25s ease all;
 }
  /*-------------------------------------------------------конец стилей для меню*/
@@ -52,7 +57,7 @@ a{
   float: right;*/
   width: 150px;
   font-size: 14px;
-  padding: 3px 0 2px 10px;
+  padding: 10px 0 10px 10px;
   border: 1px solid #cecece;
   background: white;
   border-radius: 8px;
@@ -71,7 +76,7 @@ a{
   height: 25px;
   display: inline-block; 
   right: 0;
-  top: 0px;*/
+  top: 7px;*/
   color: #4e4e4e;
   }  
 
@@ -281,16 +286,17 @@ these make the slideshow work
 .quotes p + p {
  color: white;
  font-style: normal;
- font-size: 1.5em; 
+ font-size: 1.3em; 
 }
 
 
 /*------------------------------------------------------------*/
 
 .wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  min-width: 960px;
+	display: flex;
+	flex-flow: column wrap;
+	min-width: 960px;
+	border-top: 10px solid #e44a4a;
 }
 
 .item  {
@@ -363,9 +369,17 @@ these make the slideshow work
 
 .date ul li img {
   float: left;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .date ul li {
   line-height: 21px;
+}
+
+.player .date, .video .date, .quote .date, .date a {
+    color: white;
+}
+
+.quote .date a, .picture .date a, .comments .date a {
+	color: black !important;
 }
