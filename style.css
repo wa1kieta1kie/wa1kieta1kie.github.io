@@ -202,7 +202,7 @@ these make the slideshow work
 /*-------------------------------End slider-------------------------------------*/
 
 .comments {
-  height: 350px;
+  height: auto;
   /*padding: 0px 200px;*/
 
 }
@@ -237,6 +237,7 @@ these make the slideshow work
   text-decoration: none;
   background-color: white;
   outline: none;
+  margin-top: 30px;
 }
 
 #comments_button:hover {
