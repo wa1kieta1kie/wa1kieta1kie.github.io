@@ -54,19 +54,19 @@ a{
 /*----------------------------------------------------------поиск*/
 .search input {  
   margin-top: -2px;
-  float: right;*/
+  float: right;
   width: 150px;
   font-size: 14px;
   padding: 10px 0 10px 10px;
   border: 1px solid #cecece;
   background: white;
   border-radius: 8px;
+  transition: 0.5s all ease;
   }
 
 .search input:focus {
-  width: 200px;
+  width: 250px;
   outline: none;
-  transition: 1s all ease;
 }
 
 .search i {
