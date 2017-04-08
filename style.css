@@ -21,6 +21,7 @@ a{
     font-size: 4em;
     margin: 0;
 	padding: 100px 0px 0px 0px;
+	flex: 1 0 100%;
 }
 
 .header ul {
@@ -36,6 +37,12 @@ a{
 
 #header-list {
 	line-height: 38px;
+	display: flex;
+    flex: 1 0 50%;
+}
+
+.search {
+	flex: 1 0 50%;
 }
 
  /*------------------------------------------------------стили для javascript*/
@@ -92,8 +99,7 @@ h1 {
 
 .header-content {
   /*background: #a1e5a0;*/
-  width: 70%;
-  float: left;
+	flex: 0 1 70%;
 }
 
  .header-content p {
@@ -295,7 +301,7 @@ these make the slideshow work
 .wrapper {
 	display: flex;
 	flex-flow: column wrap;
-	min-width: 960px;
+	/*min-width: 960px;*/
 	border-top: 10px solid #e44a4a;
 }
 
@@ -308,6 +314,8 @@ these make the slideshow work
   width: 854px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .video {
@@ -323,7 +331,7 @@ these make the slideshow work
 }
 
 .copyright {
-  float: left;
+	flex: 1 0 50%;
 }
 
 .copyright p {
@@ -334,8 +342,9 @@ these make the slideshow work
 }
 
 .social_wrapper {
-    margin-left: 310px;
-    text-align: right;
+	display: flex;
+    flex: 1 0 50%;
+	justify-content: flex-end;
 }
 
 .social_wrapper ul {
@@ -385,4 +394,42 @@ these make the slideshow work
 .quote .date a, .picture .date a, .comments .date a {
 	color: black !important;
 	border-bottom: 1px dashed #e44a4a;
+}
+
+@media all and (max-width: 680px) {
+	.search {
+		order: 1;
+		flex: 1 0 100%;
+	}
+	
+	#header-list {
+		flex-direction: column;
+		flex: 1 0 100%;
+		order: 2;
+	}
+	
+	#header-list li {
+		align-self: center;
+	}
+	
+	.header .inner h1 {
+		order: 3;
+	}
+	
+	.header-content {
+		order: 3;
+		align-items: center;
+	}
+	
+	.video_wrapper iframe {
+		width: 640px !important;
+		height: 480px !important;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.video_wrapper iframe {
+		width: 480px !important;
+		height: 360px !important;
+	}
 }
